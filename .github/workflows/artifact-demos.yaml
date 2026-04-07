@@ -12,7 +12,7 @@ jobs:
             mkdir temp
             echo "alpha" > temp/alpha.html
 
-        - name: upload artifact
+       -  name: upload artifact
           uses: actions/upload-artifact@v4
           with:
             name: files
